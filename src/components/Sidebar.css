@@ -1,0 +1,61 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    transition: all 0.3s ease-in-out;
+    /* Removed transform */
+    z-index: -1;
+    animation-duration: 0.5s;
+    /* Define the animation duration */
+}
+
+.show-sidebar {
+    z-index: 99;
+    animation-name: open-sidebar;
+    /* Apply animation when sidebar opens */
+}
+
+.hide-sidebar {
+    animation-name: close-sidebar;
+    /* Apply animation when sidebar closes */
+}
+
+@keyframes open-sidebar {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes close-sidebar {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.sidebar ul {
+    margin-top: 2rem;
+}
+
+.sidebar ul li {
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.sidebar ul li:hover {
+    cursor: pointer;
+    padding-left: 2rem;
+    background: var(--clr-grey-10);
+    color: var(--clr-grey-2);
+}

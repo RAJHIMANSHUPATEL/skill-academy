@@ -1,0 +1,75 @@
+.hero-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-info{
+    margin-right: 2rem;
+}
+.hero-course{
+    line-height: 1.2;
+}
+
+.hero-course-info{
+    font-size: 1.25rem;
+}
+
+.hero-course-price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+
+    span{
+        opacity: 0.5;
+        text-decoration: line-through;
+    }
+}
+
+.enroll button{
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    padding: 8px 15px;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img img {
+    width: 80%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.hero-img:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+    .hero-section{
+        grid-template-columns: 1fr;
+    }
+    .hero-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+    }
+    .hero-img {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .enroll{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

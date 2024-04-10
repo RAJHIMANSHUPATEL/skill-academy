@@ -1,0 +1,66 @@
+.navbar{
+    padding: 2rem 0;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2.5rem;
+
+        li{
+            transition: all 0.3s ease-in;
+        }
+
+        li:hover {
+                color: var(--clr-primary-5);
+                cursor: pointer;
+                transform: scale(1.2);
+            }
+    }
+
+}
+
+
+.logo{
+    color: var(--clr-primary-5);
+    cursor: pointer;
+    z-index: 100;
+}
+
+.login{
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+}
+
+.login:hover{
+        color: var(--clr-primary-5);
+        cursor: pointer;
+        transform: scale(1.2);
+}
+
+.hamburger-menu{
+    display: none;
+    font-size: 2rem;
+    z-index: 100;
+}
+
+.hamburger-menu:hover{
+    color: var(--clr-primary-5);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 750px){
+    .navbar ul {
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+}

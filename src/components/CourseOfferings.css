@@ -1,0 +1,27 @@
+.course-features{
+    display: flex;
+    border-radius: 10px;
+    padding: 2rem ;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    flex-wrap: wrap;
+    
+
+
+    div{
+        text-align: center;
+
+        h5{
+            color: gray;
+        }
+    }
+}
+
+
+@media  screen and (max-width: 1200px) {
+    .course-features{
+        justify-content: center;
+    }
+}
