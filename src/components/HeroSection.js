@@ -12,7 +12,7 @@ function HeroSection() {
                 <div className="hero-course-price">
                     <h3>₹20,000</h3>
                     <span className="discount">
-                        <h4>₹20,000</h4>
+                        <h4>₹29,000</h4>
                     </span>
                 </div>
                 <div className="enroll">
