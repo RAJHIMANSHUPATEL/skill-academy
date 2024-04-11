@@ -9,6 +9,7 @@ import Technologies from './components/Technologies';
 import Mentors from './components/Mentors';
 import Recruiters from './components/Recruiters';
 import Reviews from './components/Reviews';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Curriculum />
       <Recruiters />
       <Reviews />
+      <Footer />
     </div>
   );
 }

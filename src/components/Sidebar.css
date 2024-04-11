@@ -6,21 +6,19 @@
     height: 100%;
     background: white;
     transition: all 0.3s ease-in-out;
-    /* Removed transform */
     z-index: -1;
     animation-duration: 0.5s;
-    /* Define the animation duration */
+
 }
 
 .show-sidebar {
     z-index: 99;
     animation-name: open-sidebar;
-    /* Apply animation when sidebar opens */
+
 }
 
 .hide-sidebar {
     animation-name: close-sidebar;
-    /* Apply animation when sidebar closes */
 }
 
 @keyframes open-sidebar {

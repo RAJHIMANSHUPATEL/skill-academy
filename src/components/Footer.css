@@ -1,0 +1,14 @@
+.wrapper{
+    background: var(--clr-grey-1);
+    color: white;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: space-between;
+}
+
+li{
+    margin-bottom: 5px;
+}
