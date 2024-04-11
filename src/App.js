@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Technologies from './components/Technologies';
 import Mentors from './components/Mentors';
 import Recruiters from './components/Recruiters';
+import Reviews from './components/Reviews';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Technologies />
       <Curriculum />
       <Recruiters />
+      <Reviews />
     </div>
   );
 }

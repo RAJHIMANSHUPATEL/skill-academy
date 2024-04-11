@@ -37,7 +37,7 @@ const Curriculum = () => {
                     ))}
                 </div>
             </div>
-            <button className='btn'>Download Curriculum</button>
+            <button className='btn button'>Download Curriculum</button>
         </div>
     );
 };

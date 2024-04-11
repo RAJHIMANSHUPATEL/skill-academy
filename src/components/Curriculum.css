@@ -1,13 +1,16 @@
 .curriculum{
     margin-top: 2rem;
-    background: var(--clr-primary-5);
+    background: var(--clr-primary-10);
     padding: 2rem 0;
     text-align: center;
+    p{
+        color: wheat;
+    }
 }
 
 .curriculum-content{
     text-align: center;
-    color: white;
+    color: var(--clr-primary-5);
 
     h3{
         margin-bottom: 2rem;
@@ -23,10 +26,10 @@
 }
 
 .modules{
-    background: var(--clr-primary-10);
+    background: var(--clr-primary-5);
     padding: 1rem 2rem;
     text-align: left;
-    color: black;
+    color: white;
     margin-bottom: 1rem;
 }
 
@@ -42,6 +45,7 @@
         padding: 1rem 2rem;
         background: white;
         margin-bottom: 10px;
+        color: black;
         
     }
 }
@@ -52,8 +56,8 @@
 }
 
 
-.btn{
-    background: white;
-    color: black;
+.button{
+    padding: 10px;
     margin-top: 1rem;
+    color: white;
 }
